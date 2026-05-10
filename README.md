@@ -1,5 +1,5 @@
 # Pentesting-Notes
 
-### Lab Setup
+## Lab Setup
 
-## Kali Linux (Virtualbox)
+### Kali Linux (Virtualbox)
