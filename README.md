@@ -4,8 +4,13 @@
 
 ### Kali Linux (Virtualbox)
 
-#### Checksum
+#### Verifying Checksum
 ##### Windows
 ``
-certutil -hashfile path-to-your-file algorithm
+certutil -hashfile \path\to\file <algorithm>
+``
+
+##### Mac/Unix
+``
+shasum -a <algorithm> /path/to/file/
 ``
