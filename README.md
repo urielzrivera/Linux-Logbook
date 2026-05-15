@@ -13,7 +13,7 @@ certutil -hashfile \path\to\file <algorithm>
 shasum -a <algorithm> /path/to/file/
 ```
 
-#### Kali Linux Post-Install
+#### Post-Install
 
 Change default credentials
 ```bash
@@ -23,4 +23,13 @@ passwd
 Check for extra users
 ```bash
 cat /etc/passwd
+```
+
+## Useful Commands
+Set target IP variable
+```bash
+export IP=<target ip>
+```
+```bash
+echo $IP
 ```
