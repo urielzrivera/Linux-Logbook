@@ -1,3 +1,11 @@
+Set target IP variable
+```bash
+export IP=<target ip>
+```
+```bash
+echo $IP
+```
+
 # Nmap
 
 Initial Scan
