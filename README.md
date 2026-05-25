@@ -38,3 +38,18 @@ export IP=<target ip>
 ```bash
 echo $IP
 ```
+
+## Tools
+
+Checking for installed tools
+
+Check if the system can locate the tool's executable binary
+```bash
+which tool_name
+```
+
+Check for tool in Kali's repositories
+```bash
+apt list tool_name
+```
+
