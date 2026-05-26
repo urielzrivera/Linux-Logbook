@@ -5,7 +5,7 @@ hi there,
 Welcome to my Pentesting Notebook.\
 This serves as a living document for every useful command, tactics, techniques, and procedure learned during pentesting engagements, labs, CTFs, or interacting with the security community.
 
-## Machine Setup and Post-Installation Tasks
+## VM Setup and Post-Installation Tasks
 
 #### Verifying Checksums
 ##### Windows
@@ -17,8 +17,9 @@ certutil -hashfile \path\to\file <algorithm>
 ```bash
 shasum -a <algorithm> /path/to/file/
 ```
+---
 
-#### Post-Install
+### Post-Installation Tasks [Securing Kali Linux]
 
 Change default credentials
 ```bash
