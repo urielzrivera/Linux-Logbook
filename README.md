@@ -3,7 +3,7 @@
 hi there, 
 
 Welcome to my Pentesting Notebook.\
-This serves as a living document for every useful command, tactics, techniques, and procedure learned during pentesting engagements, labs, CTFs, or interacting with the security community.
+This serves as a living document for every useful command, tactics, techniques, and procedures learned during pentesting engagements, labs, CTFs, or interacting with the security community.
 
 ## VM Setup and Post-Installation Tasks
 
