@@ -34,7 +34,7 @@ cat /etc/passwd
 ## Useful Commands
 Set target IP variable
 ```bash
-export IP=<target ip>
+export IP=target_ip
 ```
 ```bash
 echo $IP
