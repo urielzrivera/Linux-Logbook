@@ -13,22 +13,55 @@ This serves as a living document for every useful command, tactics, techniques, 
 certutil -hashfile \path\to\file <algorithm>
 ```
 
-##### Mac/Unix
+##### Linux / OS X / Unix
 ```bash
-shasum -a <algorithm> /path/to/file/
+shasum -a algorithm /path/to/file/
 ```
 ---
 
-### Post-Installation Tasks [Securing Kali Linux]
+### Post-Installation Tasks [Securing Linux]
 
 Change default credentials
 ```bash
 passwd
 ```
+Create standard user
+```bash
+sudo adduser username
+```
+Create standard user with zsh [Kali]
+```bash
+sudo useradd -m -s /usr/bin/zsh newuser
+```
+
+Grant sudo permissions
+```bash
+sudo usermod -aG sudo username
+```
+
+Apply Kali Visual theme
+```bash
+sudo cp /etc/skel/.zshrc /home/newuser/
+sudo chown newuser:newuser /home/newuser/.zshrc
+```
+
+Verify shell
+```bash
+sudo chsh -s /bin/bash username
+```
+
+Verify user directory creation
+```bash
+ls /home
+```
 
 Check for extra users
 ```bash
 cat /etc/passwd
+```
+## Maintenance 
+```bash
+sudo apt update && sudo apt full-upgrade -y
 ```
 
 ## Useful Commands
