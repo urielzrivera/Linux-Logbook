@@ -1,10 +1,19 @@
 hi there,
 
-Welcome to my Pentesting Notebook.
+welcome to my pentesting notebook.
 
 this repository serves as a living KB that documents useful commands, methodologies, tactics, techniques, and procedures i've learned throughout my journey in offensive security. the content here is continuously updated as i gain experience through penetration testing labs, CTF challenges, research, community knowledge, and real-world engagements.
 
 the *goal* of this notebook is to consolidate information that i find valuable enough to revisit regularly, and spend less time searching for commands, techniques, and workflows.
+
+### A Living Document
+
+security is constantly evolving, and so is this repository.
+if you find anything here useful, that's a bonus. 
+
+happy hacking, and happy learning.
+
+## VM Setup and Post-Installation Tasks
 
 # What You'll Find Here
 
@@ -30,15 +39,6 @@ this README includes many of the commands, setup procedures, tools, and quick-re
 * conducting live assessments
 * troubleshooting tooling issues
 * documenting findings and evidence
-
-# A Living Document
-
-security is constantly evolving, and so is this repository.
-if you find anything here useful, that's a bonus. 
-
-happy hacking, and happy learning.
-
-## VM Setup and Post-Installation Tasks
 
 #### Verifying Checksums
 ##### Windows
