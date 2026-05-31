@@ -1,9 +1,42 @@
-# Pentesting-Notes
+hi there,
 
-hi there, 
+Welcome to my Pentesting Notebook.
 
-Welcome to my Pentesting Notebook.\
-This serves as a living document for every useful command, tactics, techniques, and procedures learned during pentesting engagements, labs, CTFs, or interacting with the security community.
+this repository serves as a living KB that documents useful commands, methodologies, tactics, techniques, and procedures i've learned throughout my journey in offensive security. the content here is continuously updated as i gain experience through penetration testing labs, CTF challenges, research, community knowledge, and real-world engagements.
+
+the *goal* of this notebook is to consolidate information that i find valuable enough to revisit regularly, and spend less time searching for commands, techniques, and workflows.
+
+# What You'll Find Here
+
+this repository contains notes and references for topics such as:
+
+* Notetaking
+* Reconnaissance and enumeration
+* Web application testing
+* Active Directory assessments
+* Privilege escalation
+* Credential attacks
+* Exploitation techniques
+* Post-exploitation activities
+* Reporting and documentation
+* Tool usage and common command references and cheat sheets
+
+# README Contents
+
+this README includes many of the commands, setup procedures, tools, and quick-reference notes that i commonly use when:
+* configuring Kali Linux virtual machines
+* preparing for labs or CTFs
+* building new testing environments
+* conducting live assessments
+* troubleshooting tooling issues
+* documenting findings and evidence
+
+# A Living Document
+
+security is constantly evolving, and so is this repository.
+if you find anything here useful, that's a bonus. 
+
+happy hacking, and happy learning.
 
 ## VM Setup and Post-Installation Tasks
 
@@ -72,6 +105,9 @@ export IP=target_ip
 ```bash
 echo $IP
 ```
+## Notetaking
+### vim
+Useful vim commands
 
 ## Tools
 
@@ -86,4 +122,4 @@ Check for tool in Kali's repositories
 ```bash
 apt list tool_name
 ```
-
+### Tool Library
